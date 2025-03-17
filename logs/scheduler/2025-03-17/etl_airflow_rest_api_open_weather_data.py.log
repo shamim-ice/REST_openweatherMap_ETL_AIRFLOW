@@ -1,0 +1,311 @@
+[2025-03-17T14:59:42.967+0600] {processor.py:186} INFO - Started process (PID=19247) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T14:59:42.968+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T14:59:42.971+0600] {logging_mixin.py:190} INFO - [2025-03-17T14:59:42.970+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T14:59:42.976+0600] {logging_mixin.py:190} INFO - [2025-03-17T14:59:42.974+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T14:59:42.977+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T14:59:43.001+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.041 seconds
+[2025-03-17T15:00:59.472+0600] {processor.py:186} INFO - Started process (PID=19405) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:00:59.478+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:00:59.481+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:00:59.481+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:00:59.486+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:00:59.484+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:00:59.487+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:00:59.507+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.042 seconds
+[2025-03-17T15:01:42.517+0600] {processor.py:186} INFO - Started process (PID=19458) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:01:42.524+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:01:42.528+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:01:42.526+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:01:42.534+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:01:42.532+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:01:42.536+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:01:42.568+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.062 seconds
+[2025-03-17T15:02:18.423+0600] {processor.py:186} INFO - Started process (PID=19504) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:02:18.436+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:02:18.439+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:02:18.439+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:02:18.443+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:02:18.442+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:02:18.444+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:02:18.463+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.047 seconds
+[2025-03-17T15:02:53.787+0600] {processor.py:186} INFO - Started process (PID=19595) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:02:53.788+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:02:53.791+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:02:53.791+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:02:53.795+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:02:53.794+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:02:53.796+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:02:53.832+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.053 seconds
+[2025-03-17T15:03:32.424+0600] {processor.py:186} INFO - Started process (PID=19630) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:03:32.432+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:03:32.435+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:03:32.434+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:03:32.439+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:03:32.437+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:03:32.439+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:03:32.458+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.040 seconds
+[2025-03-17T15:04:10.367+0600] {processor.py:186} INFO - Started process (PID=19689) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:04:10.380+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:04:10.384+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:04:10.383+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:04:10.388+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:04:10.387+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:04:10.389+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:04:10.409+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.050 seconds
+[2025-03-17T15:05:26.271+0600] {processor.py:186} INFO - Started process (PID=19737) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:05:26.285+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:05:26.287+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:05:26.287+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:05:26.292+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:05:26.290+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:05:26.292+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:05:26.314+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.049 seconds
+[2025-03-17T15:06:40.606+0600] {processor.py:186} INFO - Started process (PID=19928) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:06:40.622+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:06:40.626+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:06:40.625+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:06:40.631+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:06:40.629+0600] {dagbag.py:387} ERROR - Failed to import: /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+Traceback (most recent call last):
+  File "/home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py", line 11, in <module>
+    start_date=datetime('2025, 3, 10'),
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-03-17T15:06:40.632+0600] {processor.py:927} WARNING - No viable dags retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:06:40.666+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.066 seconds
+[2025-03-17T15:07:29.787+0600] {processor.py:186} INFO - Started process (PID=20088) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:07:29.791+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:07:29.798+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:29.797+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:07:29.954+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:07:30.466+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.462+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG:etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.532+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.531+0600] {override.py:1930} INFO - Created Permission View: can read on DAG:etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.560+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.560+0600] {override.py:1930} INFO - Created Permission View: can edit on DAG:etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.602+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.600+0600] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.640+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.639+0600] {override.py:1930} INFO - Created Permission View: can read on DAG Run:etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.668+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.667+0600] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.713+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.712+0600] {override.py:1930} INFO - Created Permission View: can create on DAG Run:etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.714+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.713+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:07:30.767+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.767+0600] {dag.py:3262} INFO - Creating ORM DAG for etl_airflow_rest_api_dag
+[2025-03-17T15:07:30.770+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:07:30.769+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:07:30.824+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 1.064 seconds
+[2025-03-17T15:08:14.239+0600] {processor.py:186} INFO - Started process (PID=20169) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:08:14.245+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:08:14.248+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:08:14.248+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:08:14.285+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:08:14.303+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:08:14.302+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:08:14.318+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:08:14.318+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:08:14.356+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.124 seconds
+[2025-03-17T15:08:52.544+0600] {processor.py:186} INFO - Started process (PID=20258) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:08:52.550+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:08:52.553+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:08:52.552+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:08:52.581+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:08:52.597+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:08:52.597+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:08:52.612+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:08:52.612+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:08:52.645+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.108 seconds
+[2025-03-17T15:09:29.740+0600] {processor.py:186} INFO - Started process (PID=20344) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:09:29.766+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:09:29.769+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:09:29.769+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:09:29.803+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:09:30.017+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:09:30.017+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:09:30.039+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:09:30.038+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:09:30.081+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.349 seconds
+[2025-03-17T15:10:16.762+0600] {processor.py:186} INFO - Started process (PID=20421) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:10:16.763+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:10:16.766+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:10:16.765+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:10:16.799+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:10:16.938+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:10:16.937+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:10:16.963+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:10:16.963+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-10 00:00:00+00:00, run_after=2025-03-10 01:00:00+00:00
+[2025-03-17T15:10:16.992+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.237 seconds
+[2025-03-17T15:11:31.277+0600] {processor.py:186} INFO - Started process (PID=20538) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:11:31.280+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:11:31.293+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:11:31.291+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:11:31.403+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:11:31.441+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:11:31.441+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:11:31.501+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:11:31.501+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-10 06:00:00+00:00, run_after=2025-03-10 07:00:00+00:00
+[2025-03-17T15:11:31.561+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.317 seconds
+[2025-03-17T15:15:56.657+0600] {processor.py:186} INFO - Started process (PID=21081) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:15:56.658+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:15:56.661+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:15:56.660+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:15:56.696+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:15:56.715+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:15:56.715+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:15:56.749+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:15:56.749+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-10 20:00:00+00:00, run_after=2025-03-10 21:00:00+00:00
+[2025-03-17T15:15:56.789+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.139 seconds
+[2025-03-17T15:18:18.210+0600] {processor.py:186} INFO - Started process (PID=21392) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:18:18.234+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:18:18.237+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:18:18.236+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:18:18.272+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:18:18.291+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:18:18.291+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:18:18.322+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:18:18.322+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-11 02:00:00+00:00, run_after=2025-03-11 03:00:00+00:00
+[2025-03-17T15:18:18.344+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.142 seconds
+[2025-03-17T15:25:36.860+0600] {processor.py:186} INFO - Started process (PID=22390) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:25:36.863+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:25:36.868+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:25:36.867+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:25:36.948+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:25:37.602+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:25:37.601+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:25:37.649+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:25:37.649+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-11 22:00:00+00:00, run_after=2025-03-11 23:00:00+00:00
+[2025-03-17T15:25:37.715+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.870 seconds
+[2025-03-17T15:27:15.976+0600] {processor.py:186} INFO - Started process (PID=22581) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:27:15.978+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:27:15.983+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:27:15.982+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:27:16.040+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:27:16.081+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:27:16.081+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:27:16.150+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:27:16.149+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-12 09:00:00+00:00, run_after=2025-03-12 10:00:00+00:00
+[2025-03-17T15:27:16.207+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.241 seconds
+[2025-03-17T15:29:54.327+0600] {processor.py:186} INFO - Started process (PID=23018) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:29:54.330+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:29:54.334+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:29:54.333+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:29:54.394+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:29:54.429+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:29:54.429+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:29:54.467+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:29:54.467+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-13 05:00:00+00:00, run_after=2025-03-13 06:00:00+00:00
+[2025-03-17T15:29:54.637+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.322 seconds
+[2025-03-17T15:30:30.938+0600] {processor.py:186} INFO - Started process (PID=23112) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:30.939+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:30:30.945+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:30.944+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:30.980+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:31.165+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:31.165+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:30:31.180+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:31.180+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:30:31.206+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.278 seconds
+[2025-03-17T15:30:50.888+0600] {processor.py:186} INFO - Started process (PID=23139) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:50.890+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:30:50.896+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:50.895+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:50.950+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:50.961+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:50.961+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:30:50.990+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:50.990+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:30:51.020+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.144 seconds
+[2025-03-17T15:30:55.565+0600] {processor.py:186} INFO - Started process (PID=23146) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:55.566+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:30:55.571+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:55.570+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:55.659+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:30:55.675+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:55.675+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:30:55.718+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:30:55.717+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:30:55.757+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.209 seconds
+[2025-03-17T15:31:47.715+0600] {processor.py:186} INFO - Started process (PID=23254) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:31:47.721+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:31:47.724+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:31:47.724+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:31:47.755+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:31:47.773+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:31:47.773+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:31:47.794+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:31:47.794+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:31:47.817+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.111 seconds
+[2025-03-17T15:32:18.852+0600] {processor.py:186} INFO - Started process (PID=23308) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:32:18.856+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:32:18.860+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:32:18.859+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:32:18.907+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:32:18.928+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:32:18.928+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:32:18.949+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:32:18.949+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:32:18.975+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.139 seconds
+[2025-03-17T15:33:15.310+0600] {processor.py:186} INFO - Started process (PID=23419) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:33:15.316+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:33:15.319+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:33:15.318+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:33:15.351+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:33:15.370+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:33:15.369+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:33:15.387+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:33:15.387+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:33:15.415+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.114 seconds
+[2025-03-17T15:33:49.633+0600] {processor.py:186} INFO - Started process (PID=23457) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:33:49.639+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:33:49.642+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:33:49.642+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:33:49.674+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:33:49.692+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:33:49.692+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:33:49.710+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:33:49.710+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:33:49.744+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.120 seconds
+[2025-03-17T15:34:27.646+0600] {processor.py:186} INFO - Started process (PID=23532) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:34:27.661+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:34:27.666+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:34:27.665+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:34:27.723+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:34:27.749+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:34:27.749+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:34:27.770+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:34:27.770+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:34:27.797+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.170 seconds
+[2025-03-17T15:34:40.455+0600] {processor.py:186} INFO - Started process (PID=23570) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:34:40.456+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:34:40.459+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:34:40.458+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:34:40.493+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:34:40.514+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:34:40.514+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:34:40.533+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:34:40.533+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:34:40.560+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.115 seconds
+[2025-03-17T15:35:24.063+0600] {processor.py:186} INFO - Started process (PID=23639) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:35:24.072+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:35:24.075+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:35:24.074+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:35:24.109+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:35:24.127+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:35:24.127+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:35:24.146+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:35:24.146+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:35:24.183+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.132 seconds
+[2025-03-17T15:36:11.423+0600] {processor.py:186} INFO - Started process (PID=23734) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:36:11.429+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:36:11.433+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:36:11.432+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:36:11.471+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:36:11.492+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:36:11.492+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:36:11.516+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:36:11.516+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:36:11.552+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.138 seconds
+[2025-03-17T15:36:36.910+0600] {processor.py:186} INFO - Started process (PID=23790) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:36:36.912+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:36:36.916+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:36:36.915+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:36:36.966+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:36:36.995+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:36:36.994+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:36:37.023+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:36:37.023+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to None, run_after=None
+[2025-03-17T15:36:37.101+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.201 seconds
+[2025-03-17T15:38:02.656+0600] {processor.py:186} INFO - Started process (PID=23977) to work on /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:38:02.670+0600] {processor.py:914} INFO - Processing file /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py for tasks to queue
+[2025-03-17T15:38:02.673+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:38:02.672+0600] {dagbag.py:588} INFO - Filling up the DagBag from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:38:02.706+0600] {processor.py:925} INFO - DAG(s) 'etl_airflow_rest_api_dag' retrieved from /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py
+[2025-03-17T15:38:02.841+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:38:02.841+0600] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T15:38:02.865+0600] {logging_mixin.py:190} INFO - [2025-03-17T15:38:02.865+0600] {dag.py:4180} INFO - Setting next_dagrun for etl_airflow_rest_api_dag to 2025-03-13 09:00:00+00:00, run_after=2025-03-13 10:00:00+00:00
+[2025-03-17T15:38:02.896+0600] {processor.py:208} INFO - Processing /home/shamim/REST_openweatherMap_ETL_AIRFLOW/dags/etl_airflow_rest_api_open_weather_data.py took 0.252 seconds

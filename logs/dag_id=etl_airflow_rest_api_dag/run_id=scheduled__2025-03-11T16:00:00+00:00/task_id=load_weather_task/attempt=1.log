@@ -1,0 +1,32 @@
+[2025-03-17T15:24:02.491+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-17T15:24:02.508+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_airflow_rest_api_dag.load_weather_task scheduled__2025-03-11T16:00:00+00:00 [queued]>
+[2025-03-17T15:24:02.519+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_airflow_rest_api_dag.load_weather_task scheduled__2025-03-11T16:00:00+00:00 [queued]>
+[2025-03-17T15:24:02.519+0600] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-17T15:24:02.535+0600] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): load_weather_task> on 2025-03-11 16:00:00+00:00
+[2025-03-17T15:24:02.550+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_airflow_rest_api_dag', 'load_weather_task', 'scheduled__2025-03-11T16:00:00+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/etl_airflow_rest_api_open_weather_data.py', '--cfg-path', '/tmp/tmpsexa2un1']
+[2025-03-17T15:24:02.552+0600] {standard_task_runner.py:105} INFO - Job 127: Subtask load_weather_task
+[2025-03-17T15:24:02.556+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=22195) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-17T15:24:02.557+0600] {standard_task_runner.py:72} INFO - Started process 22207 to run task
+[2025-03-17T15:24:02.596+0600] {task_command.py:467} INFO - Running <TaskInstance: etl_airflow_rest_api_dag.load_weather_task scheduled__2025-03-11T16:00:00+00:00 [running]> on host shamim-X541UV
+[2025-03-17T15:24:02.677+0600] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_airflow_rest_api_dag' AIRFLOW_CTX_TASK_ID='load_weather_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-11T16:00:00+00:00'
+[2025-03-17T15:24:02.679+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-17T15:24:02.679+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-17T15:24:02.679+0600] {logging_mixin.py:190} INFO - Current task name:load_weather_task state:running start_date:2025-03-17 09:24:02.509189+00:00
+[2025-03-17T15:24:02.680+0600] {logging_mixin.py:190} INFO - Dag name:etl_airflow_rest_api_dag and current dag run status:running
+[2025-03-17T15:24:02.680+0600] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-17T15:24:02.860+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-03-17T15:24:02.877+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('Dhaka', 31.99, 29)
+[2025-03-17T15:24:02.878+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:24:02.884+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-17T15:24:02.891+0600] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-17T15:24:02.891+0600] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_airflow_rest_api_dag, task_id=load_weather_task, run_id=scheduled__2025-03-11T16:00:00+00:00, execution_date=20250311T160000, start_date=20250317T092402, end_date=20250317T092402
+[2025-03-17T15:24:02.906+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-17T15:24:02.907+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-17T15:24:02.907+0600] {logging_mixin.py:190} INFO - Dag name:etl_airflow_rest_api_dag queued_at:2025-03-17 09:23:09.803828+00:00
+[2025-03-17T15:24:02.908+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-03-17T15:24:02.933+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-17T15:24:02.951+0600] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-17T15:24:02.952+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

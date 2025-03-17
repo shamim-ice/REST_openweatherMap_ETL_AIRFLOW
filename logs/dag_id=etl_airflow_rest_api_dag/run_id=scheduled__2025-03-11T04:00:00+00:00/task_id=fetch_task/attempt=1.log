@@ -1,0 +1,26 @@
+[2025-03-17T15:18:58.926+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-17T15:18:58.938+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_airflow_rest_api_dag.fetch_task scheduled__2025-03-11T04:00:00+00:00 [queued]>
+[2025-03-17T15:18:58.953+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_airflow_rest_api_dag.fetch_task scheduled__2025-03-11T04:00:00+00:00 [queued]>
+[2025-03-17T15:18:58.954+0600] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-17T15:18:58.972+0600] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): fetch_task> on 2025-03-11 04:00:00+00:00
+[2025-03-17T15:18:58.986+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_airflow_rest_api_dag', 'fetch_task', 'scheduled__2025-03-11T04:00:00+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/etl_airflow_rest_api_open_weather_data.py', '--cfg-path', '/tmp/tmps9bi9ck_']
+[2025-03-17T15:18:58.988+0600] {standard_task_runner.py:105} INFO - Job 86: Subtask fetch_task
+[2025-03-17T15:18:58.994+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=21465) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-17T15:18:58.995+0600] {standard_task_runner.py:72} INFO - Started process 21478 to run task
+[2025-03-17T15:18:59.042+0600] {task_command.py:467} INFO - Running <TaskInstance: etl_airflow_rest_api_dag.fetch_task scheduled__2025-03-11T04:00:00+00:00 [running]> on host shamim-X541UV
+[2025-03-17T15:18:59.132+0600] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_airflow_rest_api_dag' AIRFLOW_CTX_TASK_ID='fetch_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-11T04:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-11T04:00:00+00:00'
+[2025-03-17T15:18:59.134+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-17T15:18:59.135+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-17T15:18:59.135+0600] {logging_mixin.py:190} INFO - Current task name:fetch_task state:running start_date:2025-03-17 09:18:58.939373+00:00
+[2025-03-17T15:18:59.135+0600] {logging_mixin.py:190} INFO - Dag name:etl_airflow_rest_api_dag and current dag run status:running
+[2025-03-17T15:18:59.136+0600] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-17T15:18:59.280+0600] {python.py:240} INFO - Done. Returned value was: {'city': 'Dhaka', 'temperature': 31.99, 'humidity': 29}
+[2025-03-17T15:18:59.521+0600] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-17T15:18:59.522+0600] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_airflow_rest_api_dag, task_id=fetch_task, run_id=scheduled__2025-03-11T04:00:00+00:00, execution_date=20250311T040000, start_date=20250317T091858, end_date=20250317T091859
+[2025-03-17T15:18:59.549+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-17T15:18:59.549+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-17T15:18:59.549+0600] {logging_mixin.py:190} INFO - Dag name:etl_airflow_rest_api_dag queued_at:2025-03-17 09:18:54.122742+00:00
+[2025-03-17T15:18:59.550+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-03-17T15:18:59.571+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-17T15:18:59.603+0600] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-17T15:18:59.618+0600] {local_task_job_runner.py:245} INFO - ::endgroup::

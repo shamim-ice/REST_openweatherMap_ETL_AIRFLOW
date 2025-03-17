@@ -1,0 +1,62 @@
+[2025-03-17T15:39:07.276+0600] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-17T15:39:07.294+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_airflow_rest_api_dag.load_weather_task scheduled__2025-03-13T11:00:00+00:00 [queued]>
+[2025-03-17T15:39:07.306+0600] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_airflow_rest_api_dag.load_weather_task scheduled__2025-03-13T11:00:00+00:00 [queued]>
+[2025-03-17T15:39:07.306+0600] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-17T15:39:07.334+0600] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): load_weather_task> on 2025-03-13 11:00:00+00:00
+[2025-03-17T15:39:07.346+0600] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_airflow_rest_api_dag', 'load_weather_task', 'scheduled__2025-03-13T11:00:00+00:00', '--job-id', '196', '--raw', '--subdir', 'DAGS_FOLDER/etl_airflow_rest_api_open_weather_data.py', '--cfg-path', '/tmp/tmphts262_g']
+[2025-03-17T15:39:07.347+0600] {standard_task_runner.py:105} INFO - Job 196: Subtask load_weather_task
+[2025-03-17T15:39:07.350+0600] {logging_mixin.py:190} WARNING - /home/shamim/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=24138) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-17T15:39:07.350+0600] {standard_task_runner.py:72} INFO - Started process 24145 to run task
+[2025-03-17T15:39:07.386+0600] {task_command.py:467} INFO - Running <TaskInstance: etl_airflow_rest_api_dag.load_weather_task scheduled__2025-03-13T11:00:00+00:00 [running]> on host shamim-X541UV
+[2025-03-17T15:39:07.455+0600] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_airflow_rest_api_dag' AIRFLOW_CTX_TASK_ID='load_weather_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-13T11:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-13T11:00:00+00:00'
+[2025-03-17T15:39:07.457+0600] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-17T15:39:07.457+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-17T15:39:07.457+0600] {logging_mixin.py:190} INFO - Current task name:load_weather_task state:running start_date:2025-03-17 09:39:07.294995+00:00
+[2025-03-17T15:39:07.458+0600] {logging_mixin.py:190} INFO - Dag name:etl_airflow_rest_api_dag and current dag run status:running
+[2025-03-17T15:39:07.458+0600] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-17T15:39:07.635+0600] {base.py:84} INFO - Retrieving connection 'postgres'
+[2025-03-17T15:39:07.653+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('Dhaka', 31.99, 29)
+[2025-03-17T15:39:07.654+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:39:07.676+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('Delhi', 27.05, 39)
+[2025-03-17T15:39:07.678+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:39:07.693+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('Islamabad', 26.58, 33)
+[2025-03-17T15:39:07.695+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:39:07.711+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('London', 6.39, 76)
+[2025-03-17T15:39:07.712+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:39:07.728+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('New York', 12.48, 94)
+[2025-03-17T15:39:07.729+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:39:07.745+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('Tokyo', 9.84, 36)
+[2025-03-17T15:39:07.747+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:39:07.762+0600] {sql.py:624} INFO - Running statement: 
+    INSERT INTO weather_data_api (city, temperature, humidity)
+    VALUES(%s, %s, %s);
+    , parameters: ('Sydney', 18.13, 63)
+[2025-03-17T15:39:07.764+0600] {sql.py:633} INFO - Rows affected: 1
+[2025-03-17T15:39:07.765+0600] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-17T15:39:07.770+0600] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-17T15:39:07.770+0600] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=etl_airflow_rest_api_dag, task_id=load_weather_task, run_id=scheduled__2025-03-13T11:00:00+00:00, execution_date=20250313T110000, start_date=20250317T093907, end_date=20250317T093907
+[2025-03-17T15:39:07.786+0600] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-17T15:39:07.787+0600] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-17T15:39:07.787+0600] {logging_mixin.py:190} INFO - Dag name:etl_airflow_rest_api_dag queued_at:2025-03-17 09:38:23.046414+00:00
+[2025-03-17T15:39:07.788+0600] {logging_mixin.py:190} INFO - Task hostname:shamim-X541UV operator:PythonOperator
+[2025-03-17T15:39:07.806+0600] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-17T15:39:07.820+0600] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-17T15:39:07.820+0600] {local_task_job_runner.py:245} INFO - ::endgroup::
